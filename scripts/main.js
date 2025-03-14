@@ -10,7 +10,7 @@
   const CANVASID = 'canvas'
 
   // let texts = ['MY DEAR', 'LOOK UP', 'AT THE', 'STARRY SKY', 'ARE YOU', 'LOOKING',  'AT THE', 'SAME STAR', 'WITH ME ?', 'HAPPY', 'BIRTHDAY 🧁', 'DAY', 'MAHIII', 'I LOVE YOU ❤️', ]
-  let texts = ['CLICK','HEY','SOUND UP','CLICK','AFTER','EVERY','WORD','HAPPY', 'BIRTHDAY 🧁', 'DAY', 'UDIT', 'AKSHARA', 'LOVES YOU', ]
+  let texts = ['CLICK','HEY','SOUND UP','CLICK','AFTER','EVERY','WORD','HAPPY', 'BIRTHDAY 🧁', 'DAY', 'UDIT', 'AKSHARA', 'LOVES','YOU', ]
 
   let canvas,
     ctx,
@@ -18,7 +18,7 @@
     quiver = true,
     text = texts[0],
     textIndex = 0,
-    textSize = 90
+    textSize = 70
 
   function draw () {
     ctx.clearRect(0, 0, CANVASWIDTH, CANVASHEIGHT)
